@@ -40,5 +40,5 @@ function updateClock() {
 
 // 初次加载时更新一次时钟
 updateClock();
-// 每毫秒更新时钟
-setInterval(updateClock, 1); // 以毫秒为单位更新
+// 每秒更新时钟
+setInterval(updateClock, 1000); // 以毫秒为单位更新
